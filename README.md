@@ -10,3 +10,4 @@
 ©Furuhashi Laboratory/Wataru Yoshida, CC BY 4.0
 
 ## 概要
+本研究では、2020年度国土交通省が主導している日本の都市の3D都市モデルの整備をするプロジェクト、PLATEAUの
