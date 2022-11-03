@@ -15,11 +15,16 @@
 ## 先行事例
 CityGML
 
-CityJSON
+CityJSOM
+
+古橋研究室　youth_UN-EC_OSS4SDG_hachathon2022
 
 
 ## 新規性
-
+* PLATEAUからOpenStreetMapに3D建物データをインポートし、建物データを更新すること自体に新規性
 
 
 ## メリット
+* PLATEAUという国土交通省が主導しているプロジェクトということもあり、かなり正確なデータをインポートすることができる
+
+* OpenStreetMap上の3D建物データを最新版に更新することができる
