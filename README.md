@@ -15,6 +15,17 @@
 ## Introduction
 
 
+## Results
+
+
+## Discussion
+
+
+## Conclusion
+
+
+## 謝辞
+
 ## 先行事例
 CityGML
 
@@ -24,10 +35,13 @@ CityJSOM
 
 
 ## 新規性
-* PLATEAUからOpenStreetMapに3D建物データをインポートし、建物データを更新すること自体に新規性
+* PLATEAUからOpenStreetMapに3D建物データをインポートし、建物データを更新する点
 
 
 ## メリット
 * PLATEAUという国土交通省が主導しているプロジェクトということもあり、かなり正確なデータをインポートすることができる
 
 * OpenStreetMap上の3D建物データを最新版に更新することができる
+
+
+## 参考文献
