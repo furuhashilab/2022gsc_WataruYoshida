@@ -14,7 +14,7 @@
 本研究では、[PLATEAU](https://www.mlit.go.jp/plateau/)のLOD1の建物データを[OpenStreetMap](https://www.openstreetmap.org/#map=15/35.7449/139.4576)にインポートする作業を行う際の事前準備として、。最初にインポート作業を行う都市は東京都東村山市とする。理由はProject PLATEAUに参加している東京都内の都市の中で比較的都市データの整備が未だ進んでいないからである。
 
 ## Introduction
-誰でも自由に地図を編集することができるオープンデータの共同作業プロジェクト「OpenSteetMap」はポケモンGOやインスタグラムの地図に使用されるなど認知度が高まってきているものの、未だに建物データが無い地域やデータが古いまま更新されていなかったりと、都市データの整備が進んでいない地域も多くある。そこで本研究ではPLATEAUのLOD1の建物データをOpenStreetMapにインポートする作業を行う。「PLATEAU」とは2020年度より始動した、国土交通省が主導する日本全国の3D都市モデルの整備・活用・オープンデータ化を目指すプロジェクトである。2022年時点で全国56都市の3D都市モデルのオープンデータ化が完了している。
+10月の2022 10月 [UN/EC Open Source Software for SDG (OSS4SDG) Hakcathon](https://github.com/furuhashilab/README/issues/33#issuecomment-1281762516)にて青山学院大学　地球社会共生学部の古橋　大地教授及びYouthMappersAGUが中心となって取り組んだ東村山市のインポート作業の内の一つである【妥当性検証】の際に「表示されたエラー・警告がOSMによる問題なのか、PLATEAUによる問題なのかが判別できない」という問題が発生した。私たちはこの問題の対処法として「インポート作業の事前準備としてOSMのみの妥当性検証を実施し、修正作業を行う」という考えに至った。この一連の作業をマニュアル化・実施することによりインポートする際の妥当性検証で表示されたエラー・警告はPLATEAUのデータによるものであると判別がつき、インポート作業の効率化が見込める。本研究では、[JA:MLIT PLATEAU/imports list](https://wiki.openstreetmap.org/wiki/JA:MLIT_PLATEAU/imports_list)を参考として次なるインポート地域を埼玉県新座市とし、マニュアル作成に向けた【エラー・警告の事例収集】を[Tasking Manager](https://tasks.teachosm.org/projects/1499/tasks/?page=1)とJOSMを用いて行った。
 
 ## Methods
 
