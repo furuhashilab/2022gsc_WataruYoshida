@@ -67,3 +67,14 @@ https://wiki.openstreetmap.org/wiki/JA:JOSM/Validator
 
 
 ## 参考文献
+
+
+
+## グラレコ
+
+
+## 最終発表資料
+* メディウム
+
+* スライド
+
