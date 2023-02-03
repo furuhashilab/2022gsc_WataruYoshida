@@ -80,4 +80,4 @@ https://wiki.openstreetmap.org/wiki/JA:JOSM/Validator
 * メディウム
 
 * スライド
-
+https://docs.google.com/presentation/d/1rbZcWqYD-WUgBZZZzcXe3fiF94DHqVJGSPx_hCKhkAE/edit?usp=sharing
