@@ -39,12 +39,19 @@
 * [JA:JOSM/Validator](https://wiki.openstreetmap.org/wiki/JA:JOSM/Validator)を参考とし、「重複したノード」「重複したウェイノード」「逆転した海岸線」「結合されていない海岸線」「順序だっていない海岸線」「不完全なウェイ」「交差しているウェイ」「重なり合っている高速道路、ウェイ」「同一ウェイ内での交差」「類似した名前のウェイ」「閉じていないウェイ」「タグのつけられていないウェイ」「他の高速道路付近のウェイとノード」「合致していない外側のウェイの形成」「（マルチ）多角形と同様である内側のウェイの形成」「Fix.meリクエスト」やこれらに関するエラー・警告、その他筆者が重要であると判断したエラー・警告のスクリーンショット・緯度経度を記録した
 
 ## Results
+### 1.インポートする際のJava実行環境の調査
+* Java8(LTS)...〇
+* Java11(LTS)...〇
+* Java19(最新)...×
 
+`citygml-osm`で利用されている"apache camel v2.25.4"がJava8,Java11にしかサポートされていないため、Java8,Java11では実行できるが、その他のJavaのバージョンでは動作しないことが分かった。
 
-## Discussion
+### 2.[Tasking Manager](https://tasks.teachosm.org/projects/1499/tasks/?page=1)、JOSMを用いたOSMの妥当性検証、エラー・警告の修正
+https://github.com/furuhashilab/2022gsc_WataruYoshida/issues/10#issue-1556693462
 
+### 3.OSMの妥当性検証で表示されたエラー・警告の事例収集
+https://github.com/furuhashilab/2022gsc_WataruYoshida/issues/13
 
-## Conclusion
 
 
 ## 謝辞
@@ -56,15 +63,7 @@ https://github.com/yuuhayashi/citygml-osm/issues/96#issue-1429854543
 
 https://qiita.com/nyampire/items/1c10afdd36750c87154d 
 
-
-## 新規性
-* PLATEAUからOpenStreetMapに3D建物データをインポートし、建物データを更新する点
-
-
-## メリット
-* PLATEAUという国土交通省が主導しているプロジェクトということもあり、かなり正確なデータをインポートすることができる
-
-* OpenStreetMap上の3D建物データを最新版に更新することができる
+https://wiki.openstreetmap.org/wiki/JA:JOSM/Validator
 
 
 ## 参考文献
