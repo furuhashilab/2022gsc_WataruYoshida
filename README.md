@@ -74,10 +74,12 @@ https://wiki.openstreetmap.org/wiki/JA:JOSM/Validator
 
 
 ## グラレコ
+![IMG_7751](https://user-images.githubusercontent.com/93134160/216748296-91f6f0cd-07e1-4260-8e3f-52ca89abd350.jpg)
 
 
 ## 最終発表資料
 * メディウム
+https://medium.com/furuhashilab/plateau-建物データをosmにインポートする際の事前準備-bf6d7fa3e52b
 
 * スライド
 https://docs.google.com/presentation/d/1rbZcWqYD-WUgBZZZzcXe3fiF94DHqVJGSPx_hCKhkAE/edit?usp=sharing
