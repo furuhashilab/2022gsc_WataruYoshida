@@ -26,7 +26,7 @@
 
 ## Methods
 ### 1.インポートする際のJava実行環境の調査
-インポート時に使用する`citygml-osm`開発者である林ゆうう氏に助言をいただきながら、Javaのバージョンを変えながらpowershellでcitygml-osmを開き、`java -Dfile.encoding=utf-8 -jar citygml-osm-jar-with-dependencies.jar 1st`のコマンドを実行
+インポート時に使用する`citygml-osm`開発者である林優氏に助言をいただきながら、Javaのバージョンを変えながらpowershellでcitygml-osmを開き、`java -Dfile.encoding=utf-8 -jar citygml-osm-jar-with-dependencies.jar 1st`のコマンドを実行
 
 ### 2.[Tasking Manager](https://tasks.teachosm.org/projects/1499/tasks/?page=1)、JOSMを用いたOSMの妥当性検証、エラー・警告の修正
 [JA:MLIT PLATEAU/imports list](https://wiki.openstreetmap.org/wiki/JA:MLIT_PLATEAU/imports_list)を参考として妥当性検証を実施する地域は**埼玉県新座市**とした。
